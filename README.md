@@ -1,73 +1,26 @@
-# Welcome to your Lovable project
+🐱 Neon Kitty Convert – Vibrant Currency Converter 💸
+Neon Kitty Convert is a playful, interactive currency converter web app powered by Lovable AI and designed with a vibrant, animated user interface. It combines real-time currency conversion with fun visuals like an expressive cat assistant, jumping title, light/dark mode, and floating emojis — all wrapped in a neon-glow aesthetic!
 
-## Project info
+✨ Features
+🔁 Live Currency Conversion – Converts between currencies using real-time exchange rates via ExchangeRate-API or exchangerate.host
 
-**URL**: https://lovable.dev/projects/3e6f3575-0edd-441d-8f55-aac99d35d2c1
+🎨 Vibrant Gradient UI – Pink, purple, and neon blue background gradients
 
-## How can I edit this code?
+🌗 Light and Dark Themes – Toggle between light and dark mode with smooth transitions
 
-There are several ways of editing your application.
+🐱 Animated Cat Assistant – A floating toy cat that reacts with different expressions based on user interactions
 
-**Use Lovable**
+☁️ Typing Cloud Effects – Clouds appear above the cat when you're typing, with encouraging messages like “Typing... 😺” or “Super! 💥”
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3e6f3575-0edd-441d-8f55-aac99d35d2c1) and start prompting.
+💱 Floating Emojis – Money emojis (💸 💱 ✨) drift around the screen
 
-Changes made via Lovable will be committed automatically to this repo.
+🔤 Jumping Title – The app’s title gently bounces for a fun animated touch
 
-**Use your preferred IDE**
+📘 How-To Tooltip – A floating help card explaining how to use the app in 3 steps
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🔧 Built With
+⚛️ React + Vite – Fast and modern frontend stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🎨 Tailwind CSS – For styling and animations
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/3e6f3575-0edd-441d-8f55-aac99d35d2c1) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+🔌 ExchangeRate API – For fetching live exchange rates
