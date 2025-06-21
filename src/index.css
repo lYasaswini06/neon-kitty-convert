@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -100,4 +101,56 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Custom animations */
+@keyframes fly {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(calc(100vw + 100px));
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.4);
+  }
+}
+
+.animate-fly {
+  animation: fly 15s linear infinite;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+/* Enhanced shadows */
+.shadow-3xl {
+  box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Glassmorphism effects */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
