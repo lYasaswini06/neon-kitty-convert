@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -10,7 +9,6 @@ import { ArrowDown, Sun, Moon } from 'lucide-react';
 import { useToast } from "@/hooks/use-toast";
 import CatCharacter from "@/components/CatCharacter";
 import FloatingElements from "@/components/FloatingElements";
-import FlyingBirds from "@/components/FlyingBirds";
 import CelebrationEffect from "@/components/CelebrationEffect";
 
 const CURRENCIES = [
@@ -108,9 +106,6 @@ const Index = () => {
         
         {/* Floating background elements */}
         <FloatingElements />
-        
-        {/* Flying birds */}
-        <FlyingBirds />
         
         {/* Celebration effect */}
         {showCelebration && <CelebrationEffect />}
